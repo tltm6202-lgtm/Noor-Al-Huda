@@ -10,6 +10,8 @@ const __dirname = path.dirname(__filename);
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/Noor-Al-Huda/", // اكتب اسم المستودع هنا بين الشرطتين
+
   plugins: [react(), tailwindcss(), viteSingleFile()],
   resolve: {
     alias: {
@@ -17,3 +19,4 @@ export default defineConfig({
     },
   },
 });
+ 
